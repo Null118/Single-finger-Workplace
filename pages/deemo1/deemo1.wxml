@@ -1,0 +1,88 @@
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)"
+  indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item><image  mode ="widthFix "src="../../images/1.png"></image></swiper-item>
+    <swiper-item><image mode ="widthFix" src="../../images/2.y.png"></image></swiper-item>
+    <swiper-item><image mode ="widthFix" src="../../images/4.y.jpg"></image></swiper-item>
+  </swiper>
+</view>
+
+
+
+<view class="works">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">更多图片</view>
+    </view>
+  
+    <view class="wkMain">
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LCHK0.jpg"></image>
+        <view class="ceng">
+          <view class="title">阿猫阿狗</view>
+          <view class="des">Cute Pets</view>
+        </view>
+      </navigator>
+
+      <navigator class="box"open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LiqNF.jpg"></image>
+        <view class="ceng">
+          <view class="title">超级跑车</view>
+          <view class="des">Sports car</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFpB6.jpg"></image>
+        <view class="ceng">
+          <view class="title">自然风光</view>
+          <view class="des">natural scenery</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFZjI.jpg"></image>
+        <view class="ceng">
+          <view class="title">卡通动漫</view>
+          <view class="des">Cartoon anime</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFdET.jpg"></image>
+        <view class="ceng">
+          <view class="title">赛博朋克</view>
+          <view class="des">Cyberpunk 2077</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFWVK.jpg"></image>
+        <view class="ceng">
+          <view class="title">复古怀旧</view>
+          <view class="des">Retro nostalgia</view>
+        </view>
+      </navigator>
+
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFo2d.jpg"></image>
+        <view class="ceng">
+          <view class="title">世界各地</view>
+          <view class="des">ALLOVER WORLD</view>
+        </view>
+      </navigator>
+      
+      <navigator class="box" open-type="reLaunch">
+        <image class="pic" src="https://s1.ax1x.com/2020/10/17/0LFXa8.jpg"></image>
+        <view class="ceng">
+          <view class="title">优美人像</view>
+          <view class="des">Beautiful portrait</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<navigator class="father" url="/pages/index/index">  
+  <view class="txt"> 开始操作 </view>
+  </navigator>
